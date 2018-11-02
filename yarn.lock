@@ -356,27 +356,27 @@
     semver "5.5.1"
     semver-intersect "1.4.0"
 
-"@types/jasmine@*", "@types/jasmine@~2.8.9":
+"@types/jasmine@*", "@types/jasmine@^2.8.9":
   version "2.8.9"
   resolved "https://registry.npmjs.org/@types/jasmine/-/jasmine-2.8.9.tgz#e028c891e8551fdf6de905d959581fc4fa0b5509"
   integrity sha512-8dPZwjosElZOGGYw1nwTvOEMof4gjwAWNFS93nBI091BoEfd5drnHOLRMiRF/LOPuMTn5LgEdv0bTUO8QFVuHQ==
 
-"@types/jasminewd2@~2.0.5":
+"@types/jasminewd2@^2.0.5":
   version "2.0.5"
   resolved "https://registry.npmjs.org/@types/jasminewd2/-/jasminewd2-2.0.5.tgz#0910db4bd50202dea9fe6ec37517b0ae6a01a9e6"
   integrity sha512-1awkm/O4pQCR9hI2F80HmIOda/L+ogkSL8Arj1k00eue5VLY5ooewhSOyF/cUJE0S+/34uD5EYY3zmd6fu2OCA==
   dependencies:
     "@types/jasmine" "*"
 
+"@types/node@^10.12.2":
+  version "10.12.2"
+  resolved "https://registry.npmjs.org/@types/node/-/node-10.12.2.tgz#d77f9faa027cadad9c912cd47f4f8b07b0fb0864"
+  integrity sha512-53ElVDSnZeFUUFIYzI8WLQ25IhWzb6vbddNp8UHlXQyU0ET2RhV5zg0NfubzU7iNMh5bBXb0htCzfvrSVNgzaQ==
+
 "@types/node@^6.0.46":
   version "6.14.0"
   resolved "https://registry.npmjs.org/@types/node/-/node-6.14.0.tgz#85c6998293fc6f2945915419296c7fbb63384f66"
   integrity sha512-6tQyh4Q4B5pECcXBOQDZ5KjyBIxRZGzrweGPM47sAYTdVG4+7R+2EGMTmp0h6ZwgqHrFRCeg2gdhsG9xXEl2Sg==
-
-"@types/node@~8.9.4":
-  version "8.9.5"
-  resolved "https://registry.npmjs.org/@types/node/-/node-8.9.5.tgz#162b864bc70be077e6db212b322754917929e976"
-  integrity sha512-jRHfWsvyMtXdbhnz5CVHxaBgnV6duZnPlQuRSo/dm/GnmikNcmZhxIES4E9OZjUmQ8C+HCl4KJux+cXN/ErGDQ==
 
 "@types/q@^0.0.32":
   version "0.0.32"
