@@ -6710,10 +6710,10 @@ terser@^3.8.1:
     source-map "~0.6.1"
     source-map-support "~0.5.6"
 
-three@^0.97.0:
-  version "0.97.0"
-  resolved "https://registry.npmjs.org/three/-/three-0.97.0.tgz#76141e1b0ace14246fe9198a458fefddc98a4e30"
-  integrity sha512-ctZF79O1R2aMIDnz9cV5GUIONyFnYvfQKg4+EAwEVaEr1mgy99rglstH6hhRdIThu3SOa4Ns5da/Ee5fTbWc9A==
+three@~0.98.0:
+  version "0.98.0"
+  resolved "https://registry.npmjs.org/three/-/three-0.98.0.tgz#11d4e3cca4b5d099c7de0ea5afa153b5d20cda84"
+  integrity sha512-fihjYVjCmQbI03zt1+YCl/m+UrZCcDHFNLexgqBOIdPwnO6PYkQaYUsIbqtvNNse+BiMeu+pQWzZn9/NSnIv6A==
 
 through2@^2.0.0:
   version "2.0.3"
