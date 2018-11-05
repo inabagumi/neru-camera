@@ -388,10 +388,10 @@
   resolved "https://registry.npmjs.org/@types/selenium-webdriver/-/selenium-webdriver-3.0.12.tgz#6affe5aed1ba379175075a889adbe2bc3aa62159"
   integrity sha512-hYn+eoOehVUIdMwp5h34ZsGAO1ydja10GDup4BwyoFCdcH5MQ35nQq+AInSaBMEMopD5hEooFCyKo2Pajbe1ag==
 
-"@types/three@^0.93.5":
-  version "0.93.5"
-  resolved "https://registry.npmjs.org/@types/three/-/three-0.93.5.tgz#460390081296522d99e54c6a8241b13f87fb6bc6"
-  integrity sha512-OTo2ZezU5FkFB0Pdq0WOK+HDl6QobeCspn3tgJrqBt2WSl5GOrzVUU/Zyl5CP4QC9e++3Ni8a6qCaZo7vBS0/A==
+"@types/three@^0.93.6":
+  version "0.93.6"
+  resolved "https://registry.npmjs.org/@types/three/-/three-0.93.6.tgz#618f8545d7997cca413aacb2eb88379a60c0d04a"
+  integrity sha512-KJFV70CTByXLwyzHzY1A9sKIOzEBmOoYyKwa6UdCmMGkEHjokIIK6F5Qw3wKIx7iQtCJvgS4SoaY/JXEGR3osw==
 
 "@webassemblyjs/ast@1.7.6":
   version "1.7.6"
