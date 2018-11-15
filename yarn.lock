@@ -369,10 +369,10 @@
   dependencies:
     "@types/jasmine" "*"
 
-"@types/node@^10.12.5":
-  version "10.12.5"
-  resolved "https://registry.npmjs.org/@types/node/-/node-10.12.5.tgz#7e7ea1a9b34d2c8d704cb0b755dffbcda34741ad"
-  integrity sha512-GzdHjq3t3eGLMv92Al90Iq+EoLL+86mPfQhuglbBFO7HiLdC/rkt+zrzJJumAiBF6nsrBWhou22rPW663AAyFw==
+"@types/node@^10.12.9":
+  version "10.12.9"
+  resolved "https://registry.npmjs.org/@types/node/-/node-10.12.9.tgz#a07bfa74331471e1dc22a47eb72026843f7b95c8"
+  integrity sha512-eajkMXG812/w3w4a1OcBlaTwsFPO5F7fJ/amy+tieQxEMWBlbV1JGSjkFM+zkHNf81Cad+dfIRA+IBkvmvdAeA==
 
 "@types/node@^6.0.46":
   version "6.14.1"
@@ -389,10 +389,10 @@
   resolved "https://registry.npmjs.org/@types/selenium-webdriver/-/selenium-webdriver-3.0.13.tgz#deb799c641773c5e367abafc92d1e733d62cddd7"
   integrity sha512-rI0LGoMiZGUM+tjDakQpwZOvcmQoubiJ7hxqrYU12VRxBuGGvOThxrBOU/QmJKlKg1WG6FMzuvcEyLffvVSsmw==
 
-"@types/three@^0.93.8":
-  version "0.93.8"
-  resolved "https://registry.npmjs.org/@types/three/-/three-0.93.8.tgz#447d1de1cbe3d322c0d6390f067ab2ef3f5a4544"
-  integrity sha512-SZkk5w1NP6Y9m7Zg0eGOYFGPMJD8RzJTR7o+ScnF0Y5e5J4cNcIg5UZJtrDShhaic9ubYf6Xy1WP83qNM0OMzQ==
+"@types/three@^0.93.9":
+  version "0.93.9"
+  resolved "https://registry.npmjs.org/@types/three/-/three-0.93.9.tgz#2932790342e793427691adb9d8851c68ba9ac6b9"
+  integrity sha512-9DsBTC77r+ZRRoMN4CqZo0cAmtudWYletFPRJeNeCjI95zWBC5mZ+HcZiYRMgsZNTvrtMSQK+nUlqgxXHt+Hvg==
 
 "@webassemblyjs/ast@1.7.6":
   version "1.7.6"
