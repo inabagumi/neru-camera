@@ -14,7 +14,7 @@
     "three": "~0.98.0"
   },
   "devDependencies": {
-    "@types/node": "^10.12.9",
+    "@types/node": "^10.12.12",
     "@types/three": "^0.93.10",
     "chai": "^4.2.0",
     "copy-webpack-plugin": "^4.6.0",
