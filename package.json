@@ -25,7 +25,7 @@
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "tslint-config-airbnb": "^5.11.1",
-    "typescript": "^3.1.6",
+    "typescript": "^3.2.2",
     "wct-mocha": "^1.0.0",
     "web-component-tester": "^6.9.0",
     "webpack": "^4.26.0",
