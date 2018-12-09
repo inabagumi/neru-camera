@@ -503,10 +503,10 @@
     reflect-metadata "^0.1.12"
     tslib "^1.8.1"
 
-"@polymer/app-layout@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/@polymer/app-layout/-/app-layout-3.0.1.tgz#41266a4ae358a4f180b83d1d570a260a09570a33"
-  integrity sha512-Uf4gys9GSH69glSrKl7fsSeM0qeyfzat6tkym4WdZNdnLWou4sOxnAlF0Jg3ets1mumUo2U4/zVcUhPH9LJE+g==
+"@polymer/app-layout@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/@polymer/app-layout/-/app-layout-3.0.2.tgz#8a6f3c87b405635fd3547db82db8dbb6c51b6bf9"
+  integrity sha512-qKcQHj72uGxGoetjnNQ7pg4F6Da4U5jKBzZy0VRmDuZMUPDmtIqHaIgC5K6B4y+xUag0gkV9ce72Q3hNaK9y+g==
   dependencies:
     "@polymer/iron-flex-layout" "^3.0.0-pre.26"
     "@polymer/iron-media-query" "^3.0.0-pre.26"
