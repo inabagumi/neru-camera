@@ -29,9 +29,6 @@
   "license": "MIT",
   "name": "neru-camera",
   "private": true,
-  "resolutions": {
-    "@pixi/core": "5.0.0"
-  },
   "scripts": {
     "build": "vue-cli-service build --modern",
     "lint": "vue-cli-service lint",
