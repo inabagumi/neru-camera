@@ -1,4 +1,11 @@
-import React, { FC, createContext, useState, useEffect } from 'react'
+import React, {
+  FC,
+  SyntheticEvent,
+  createContext,
+  useCallback,
+  useEffect,
+  useState
+} from 'react'
 
 export type Asset = {
   id: number
@@ -22,6 +29,13 @@ export const AssetProvider: FC = ({ children }) => {
   const [asset, setAsset] = useState(defaultValues.asset)
   const [isLoading, setIsLoading] = useState(defaultValues.isLoading)
 
+  const handleLoadedData = useCallback(
+    (event: SyntheticEvent<HTMLVideoElement, Event>): void => {
+      console.log(event.currentTarget)
+    },
+    []
+  )
+
   useEffect(() => {
     fetch('/list.json')
       .then(res => res.json())
@@ -36,6 +50,20 @@ export const AssetProvider: FC = ({ children }) => {
   return (
     <AssetContext.Provider value={{ asset, isLoading }}>
       {children}
+
+      {asset && (
+        <video
+          crossOrigin="anonymouse"
+          data-id={asset.id}
+          data-key-color={asset.keyColor}
+          loop
+          muted
+          onLoadedData={handleLoadedData}
+          playsInline
+          src={asset.src}
+          style={{ display: 'none' }}
+        />
+      )}
     </AssetContext.Provider>
   )
 }
