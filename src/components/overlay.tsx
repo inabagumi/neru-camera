@@ -2,7 +2,7 @@ import { Sprite, useApp } from '@inlet/react-pixi'
 import { Point } from 'pixi.js'
 import React, { FC } from 'react'
 import { Asset } from '../context/asset-context'
-import { ChromaKeyFilter } from '../filters/ChromaKeyFilter'
+import ChromaKeyFilter from '../filters/chroma-key-filter'
 import useVideoTexture from '../hooks/use-video-texture'
 import Viewport from './viewport'
 
