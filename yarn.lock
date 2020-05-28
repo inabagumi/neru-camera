@@ -1105,10 +1105,10 @@
     prop-types "^15.7.2"
     react-is "^16.8.0"
 
-"@next/plugin-material-ui@^9.4.2":
-  version "9.4.2"
-  resolved "https://registry.yarnpkg.com/@next/plugin-material-ui/-/plugin-material-ui-9.4.2.tgz#f3c7eef75a2b09e1bcd7bc4c5e9c243b551a20dc"
-  integrity sha512-ln5kNAnfwxI6qgIl1pI915IglJkXebceamAqwSR5ry0gX7a3pIEIsEjf4fa+gv9sLISabiGS9f1apxXFh2wDWw==
+"@next/plugin-material-ui@^9.4.4":
+  version "9.4.4"
+  resolved "https://registry.yarnpkg.com/@next/plugin-material-ui/-/plugin-material-ui-9.4.4.tgz#0930946224c4a9ff09d2d9046f6f040be453c1af"
+  integrity sha512-zVi3l6QncnUeRvEls4Jix3kF3yFbtr8g3kyuR9MkzRgaQ3AF4GPGS/+gxAK4rcGmXM88ohagFZFCdzKiMb3pXg==
 
 "@next/react-dev-overlay@9.4.2":
   version "9.4.2"
