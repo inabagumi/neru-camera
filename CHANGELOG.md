@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.0.0 (2022-02-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove crossorigin (#953)
+
+### Features
+
+* **tailwindcss:** enable jit ([#954](https://github.com/inabagumi/neru-camera/issues/954)) ([d0fc402](https://github.com/inabagumi/neru-camera/commit/d0fc402217ab50a84d513215dfacd09db7ed334a))
+* use hashed url for main visual ([#1009](https://github.com/inabagumi/neru-camera/issues/1009)) ([6cbe4a9](https://github.com/inabagumi/neru-camera/commit/6cbe4a9649e1490a2c90861d970e8615cf90e655))
+
+
+### Bug Fixes
+
+* **deps:** only patch release can be upgraded for prettier ([#941](https://github.com/inabagumi/neru-camera/issues/941)) ([6001c88](https://github.com/inabagumi/neru-camera/commit/6001c88ad9b6a83aec37da880e4cba8963f96ac6))
+* fix types ([#1092](https://github.com/inabagumi/neru-camera/issues/1092)) ([c8c0d04](https://github.com/inabagumi/neru-camera/commit/c8c0d04e1f1d22307f2e4b2cebba4108339e3dc7))
+* **tailwindcss:** purge unused class names ([#960](https://github.com/inabagumi/neru-camera/issues/960)) ([2255544](https://github.com/inabagumi/neru-camera/commit/22555444a05981316ffe4d562c19a588805db6b6))
+* **tailwindcss:** rename tailwind config ([#957](https://github.com/inabagumi/neru-camera/issues/957)) ([85da70a](https://github.com/inabagumi/neru-camera/commit/85da70ab9f5e2d4ff7c2743389e9b4082e8c3eda))
+
+
+### Performance Improvements
+
+* remove web fonts ([#963](https://github.com/inabagumi/neru-camera/issues/963)) ([c783dcf](https://github.com/inabagumi/neru-camera/commit/c783dcff2cba17e0eaffa51ce2d39fbd9de8b4ba))
+
+
+### Code Refactoring
+
+* remove crossorigin ([#953](https://github.com/inabagumi/neru-camera/issues/953)) ([245e390](https://github.com/inabagumi/neru-camera/commit/245e39045aacf7d9b944e144eb6b56a56924c7e4))
+
 ### [6.1.1](https://www.github.com/inabagumi/neru-camera/compare/v6.1.0...v6.1.1) (2021-08-13)
 
 
