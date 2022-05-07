@@ -1,12 +1,16 @@
 import { Container, Sprite, useApp, withFilters } from '@inlet/react-pixi'
-import { Point } from 'pixi.js'
-import { FC } from 'react'
+import { Point, DisplayObject } from 'pixi.js'
+import { FC, ReactNode } from 'react'
 import ChromaKeyFilter from '../filters/chroma-key-filter'
 import useVideoTexture from '../hooks/use-video-texture'
 import { OverlayEntry } from '../types/Overlay'
 import Viewport from './viewport'
 
-const Filters = withFilters(Container, {
+type ContainerProps = DisplayObject & {
+  children: ReactNode
+}
+
+const Filters = withFilters(Container<ContainerProps>, {
   chorma: ChromaKeyFilter
 })
 
