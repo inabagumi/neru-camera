@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.0.0 (2022-05-18)
+
+
+### Features
+
+* commit for update ([#1397](https://github.com/inabagumi/neru-camera/issues/1397)) ([80de262](https://github.com/inabagumi/neru-camera/commit/80de2622abf52eddb3024de798d0a7b06a9d6a76))
+
+
+### Bug Fixes
+
+* fix types ([#1092](https://github.com/inabagumi/neru-camera/issues/1092)) ([c8c0d04](https://github.com/inabagumi/neru-camera/commit/c8c0d04e1f1d22307f2e4b2cebba4108339e3dc7))
+
 ## [6.2.0](https://github.com/inabagumi/neru-camera/compare/v6.1.1...v6.2.0) (2022-02-20)
 
 
