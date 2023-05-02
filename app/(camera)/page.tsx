@@ -2,6 +2,9 @@ import { type Metadata } from 'next'
 import dynamic from 'next/dynamic'
 import { description, title } from '@/lib/constants'
 
+export const runtime = 'edge'
+export const revalidate = 60
+
 export const metadata: Metadata = {
   alternates: {
     canonical: '/'
