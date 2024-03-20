@@ -51,7 +51,7 @@
     "format": "prettier --write .",
     "format-check": "prettier --check .",
     "lint": "next lint",
-    "prepare": "is-ci || husky install",
+    "prepare": "is-ci || husky",
     "start": "next start"
   },
   "version": "8.0.0"
