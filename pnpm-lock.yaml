@@ -42,8 +42,8 @@ importers:
         specifier: ^6.6.0
         version: 6.6.0(next@14.2.18(@babel/core@7.26.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       pixi-viewport:
-        specifier: ^5.0.3
-        version: 5.0.3
+        specifier: ^5.1.0
+        version: 5.1.0(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/interaction@6.5.10(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/math@7.4.2)(@pixi/ticker@7.4.2)(@pixi/utils@7.4.2))(@pixi/math@7.4.2)(@pixi/ticker@7.4.2)
       pixi.js:
         specifier: ^7.4.2
         version: 7.4.2
@@ -936,6 +936,15 @@ packages:
       '@pixi/core': 7.4.2
       '@pixi/display': 7.4.2
       '@pixi/sprite': 7.4.2
+
+  '@pixi/interaction@6.5.10':
+    resolution: {integrity: sha512-v809pJmXA2B9dV/vdrDMUqJT+fBB/ARZli2YRmI2dPbEbkaYr8FNmxCAJnwT8o+ymTx044Ie820hn9tVrtMtfA==}
+    peerDependencies:
+      '@pixi/core': 6.5.10
+      '@pixi/display': 6.5.10
+      '@pixi/math': 6.5.10
+      '@pixi/ticker': 6.5.10
+      '@pixi/utils': 6.5.10
 
   '@pixi/math@7.4.2':
     resolution: {integrity: sha512-7jHmCQoYk6e0rfSKjdNFOPl0wCcdgoraxgteXJTTHv3r0bMNx2pHD9FJ0VvocEUG7XHfj55O3+u7yItOAx0JaQ==}
@@ -2988,8 +2997,13 @@ packages:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
 
-  pixi-viewport@5.0.3:
-    resolution: {integrity: sha512-DGG7cg2vUltAiL2fanzYPLR+L6qBeoskPfbUXxN6CYKW+fkni5cF9J1t2WBTmyBnC3kVq3ATFE2KDi7zy2FY8A==}
+  pixi-viewport@5.1.0:
+    resolution: {integrity: sha512-CNvw0H+Z+OfVCIAUkQ5TmwLEe+7W1dcIS6Wjt+AwQXWEjZPL3QpH2xFE/GAaqZ0qRkDxDV07dbRetZULFOvoew==}
+    peerDependencies:
+      '@pixi/display': ^6.5.8
+      '@pixi/interaction': ^6.5.8
+      '@pixi/math': ^6.5.8
+      '@pixi/ticker': ^6.5.8
 
   pixi.js@7.4.2:
     resolution: {integrity: sha512-TifqgHGNofO7UCEbdZJOpUu7dUnpu4YZ0o76kfCqxDa4RS8ITc9zjECCbtalmuNXkVhSEZmBKQvE7qhHMqw/xg==}
@@ -4786,6 +4800,14 @@ snapshots:
       '@pixi/core': 7.4.2
       '@pixi/display': 7.4.2(@pixi/core@7.4.2)
       '@pixi/sprite': 7.4.2(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))
+
+  '@pixi/interaction@6.5.10(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/math@7.4.2)(@pixi/ticker@7.4.2)(@pixi/utils@7.4.2)':
+    dependencies:
+      '@pixi/core': 7.4.2
+      '@pixi/display': 7.4.2(@pixi/core@7.4.2)
+      '@pixi/math': 7.4.2
+      '@pixi/ticker': 7.4.2
+      '@pixi/utils': 7.4.2
 
   '@pixi/math@7.4.2': {}
 
@@ -7013,7 +7035,12 @@ snapshots:
 
   pirates@4.0.6: {}
 
-  pixi-viewport@5.0.3: {}
+  pixi-viewport@5.1.0(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/interaction@6.5.10(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/math@7.4.2)(@pixi/ticker@7.4.2)(@pixi/utils@7.4.2))(@pixi/math@7.4.2)(@pixi/ticker@7.4.2):
+    dependencies:
+      '@pixi/display': 7.4.2(@pixi/core@7.4.2)
+      '@pixi/interaction': 6.5.10(@pixi/core@7.4.2)(@pixi/display@7.4.2(@pixi/core@7.4.2))(@pixi/math@7.4.2)(@pixi/ticker@7.4.2)(@pixi/utils@7.4.2)
+      '@pixi/math': 7.4.2
+      '@pixi/ticker': 7.4.2
 
   pixi.js@7.4.2:
     dependencies:
